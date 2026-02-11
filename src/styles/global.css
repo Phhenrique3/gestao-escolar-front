@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 32px 0 16px;
+  font-size: 20px;
+  border-left: 4px solid #1976d2;
+  padding-left: 8px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+thead {
+  background-color: #1976d2;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Destaques */
+.bad {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.good {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.badge-good {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-bad {
+  background: #ffebee;
+  color: #c62828;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: span 3;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+.form-actions {
+  grid-column: span 3;
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+button.secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.msg-ok {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.msg-erro {
+  background: #ffebee;
+  color: #c62828;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
